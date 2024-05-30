@@ -1,5 +1,8 @@
 <?php 
 
-	echo "Recebido...";
+	$nome = $_POST['nome'];
+	$email = $_POST['email'];
+
+	echo "Seu nome é $nome e seu email é $email";
 
  ?>
